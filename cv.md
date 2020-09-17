@@ -9,4 +9,9 @@ _**Phone number:** +375(29)535-66-85 │ **Email:** 375295771786@mail.ru │ **A
 
 ### Work experince
 
+### Education
+secondary specialized technical education
+
+### English language:
+
 
