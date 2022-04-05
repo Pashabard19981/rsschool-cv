@@ -23,6 +23,6 @@
 * Rsschool Frontend Developer(в процессе)
 
 *****
-
+dddddd
 **Языки:**
 * Русский
