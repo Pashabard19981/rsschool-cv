@@ -1,6 +1,7 @@
 li {
     list-style-type: none;
     padding: 0px 15px;
+    text-align: center;
     /* Убираем маркеры */
   }
   
@@ -9,6 +10,10 @@ li {
     /* Отступ слева в браузере IE и Opera */
     padding-left: 0;
     /* Отступ слева в браузере Firefox, Safari, Chrome */
+  }
+
+  h2{
+    text-align: center;
   }
 
 
@@ -25,6 +30,8 @@ width: 1280px;
 height: 1080px;
 background-color: rgb(99, 102, 141);
 }
+
+/*стили для header */
 
 .head-nav{
 display: flex;
@@ -60,4 +67,14 @@ background-color: beige;
     justify-content: center;
     margin-top: 30px;
 }
+
+/*стили для header */
+
+/*стили для main */
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+
 
