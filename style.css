@@ -1,3 +1,63 @@
+li {
+    list-style-type: none;
+    padding: 0px 15px;
+    /* Убираем маркеры */
+  }
+  
+  ul {
+    margin-left: 0;
+    /* Отступ слева в браузере IE и Opera */
+    padding-left: 0;
+    /* Отступ слева в браузере Firefox, Safari, Chrome */
+  }
+
+
+
+
 body {
-    background-color: red;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
 }
+
+.container{
+width: 1280px;
+height: 1080px;
+background-color: rgb(99, 102, 141);
+}
+
+.head-nav{
+display: flex;
+justify-content: space-between;  
+background-color: beige; 
+}
+
+.navJunior{
+    font-size: 20px;
+    font-weight:900;
+}
+
+.navPanel{
+    display: flex;
+    font-size: 20px;
+    font-weight:500;
+}
+
+.MyImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.img{
+    border-radius:50%;
+    width: 400px;
+    height: 400px;
+}
+
+.myName{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
