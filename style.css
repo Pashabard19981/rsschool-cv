@@ -111,8 +111,8 @@ pre{
 /*стили для footer */
 
 .footer{
-    background-color: beige; 
-    height: 70px;
+    background-color: rgb(226, 226, 162); 
+    height:100%;
     display: flex;
     justify-content: center;
     margin-top: 50px;
