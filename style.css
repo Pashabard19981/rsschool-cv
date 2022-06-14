@@ -1,1 +1,153 @@
-Файл css
+li {
+    list-style-type: none;
+    padding: 0px 15px;
+    text-align: center;
+    /* Убираем маркеры */
+  }
+  
+  ul {
+    margin-left: 0;
+    /* Отступ слева в браузере IE и Opera */
+    padding-left: 0;
+    /* Отступ слева в браузере Firefox, Safari, Chrome */
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  h3{
+    margin: 0px;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+
+
+
+body {
+    background-color: rgb(245, 237, 237);
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.container{
+width: 1280px;
+height: auto;
+background-color: rgb(99, 102, 141);
+overflow: hidden;
+}
+
+/*стили для header */
+
+.head-nav{
+display: flex;
+justify-content: space-between;  
+background-color: beige; 
+}
+
+.navJunior{
+    font-size: 20px;
+    font-weight:900;
+}
+
+.navPanel{
+    display: flex;
+    font-size: 20px;
+    font-weight:500;
+}
+
+.MyImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.img{
+    border-radius:50%;
+    width: 400px;
+    height: 400px;
+}
+
+.myName{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/*стили для header */
+
+/*стили для main */
+
+.mainContainer2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.mainMyCode{
+    margin-top: 50px;
+}
+
+
+pre{
+    background-color: antiquewhite;
+    margin-top: 30px;
+    margin-left: 300px;
+    width:700px ;
+}
+
+.myInformation{
+    margin-top: 100px; 
+}
+
+/*стили для main */
+
+/*стили для footer */
+
+.footer{
+    background-color: rgb(226, 226, 162); 
+    height:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.informationFooter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.GitFooter{
+    padding-top: 25px;
+    font-size: 23px;
+    font-weight:900;
+}
+
+.stage0Footer{
+    padding-top: 25px;
+    font-size: 23px; 
+    font-weight:900;
+}
+
+.dateFooter{
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+
+
+.imgRsFooter{
+    width: 100px;
+    height: 70px;
+}
+
+
+
+
