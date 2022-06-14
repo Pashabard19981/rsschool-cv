@@ -20,14 +20,14 @@ li {
 
 
 body {
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(245, 237, 237);
     display: flex;
     justify-content: center;
 }
 
 .container{
 width: 1280px;
-height: 1080px;
+height: 100%;
 background-color: rgb(99, 102, 141);
 }
 
@@ -72,9 +72,37 @@ background-color: beige;
 
 /*стили для main */
 
-.container2{
+.mainContainer2{
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
 }
+
+.mainMyCode{
+    margin-top: 50px;
+}
+
+
+pre{
+    background-color: antiquewhite;
+    margin-top: 30px;
+    margin-left: 300px;
+    width:700px ;
+}
+
+.myInformation{
+    margin-top: 70px; 
+}
+
+/*стили для main */
+
+/*стили для footer */
+
+.footer{
+    background-color: beige; 
+    height: 70px;
+}
+
+
 
 
